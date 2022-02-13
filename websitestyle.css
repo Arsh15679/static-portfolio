@@ -1,0 +1,109 @@
+#header{
+    background-image: url('img/backPort.png');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    
+}
+#about{
+    background-image: url('img/backPort.png');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+#portfolio{
+  background-image: url('img/backPort.png');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+#contact{
+  background-image: url('img/backPort.png');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+#mynav{
+    background-color: black;
+    color: white;
+
+}
+.card{
+  margin-bottom: 50px;
+  border-radius: 15px;
+}
+
+.get{
+    
+    width: 540px;
+    position: inherit;
+    right: 8%;
+    bottom: 0;
+}
+/* Home Page Content anmation */
+#h2 {
+    
+    
+    white-space: nowrap;
+    overflow: hidden;
+    animation-name: typewriter;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+  }
+  @keyframes typewriter {
+    0% {
+      width: 0%;
+      
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  .rowss{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    padding-left: 40%;
+   
+  }
+  /* About us page button animation */
+ .ani{
+   overflow: hidden;
+   white-space: nowrap;
+   animation: ani 2s linear infinite;
+   width: 200px;
+ }
+ @keyframes ani {
+   0%{
+     width: 0%;
+   }
+   100%{
+    width: 20%;
+   }
+ }
+/* Home Page showmore button animation */
+ .anima{
+  overflow: hidden;
+  white-space: nowrap;
+  animation: anim 1s linear infinite;
+}
+@keyframes anim {
+  0%{ color:white; } 100%{ color:black; }
+}
+/* Contact Us Button animation */
+.but{
+  overflow: hidden;
+  white-space: nowrap;
+  animation: button 1s linear infinite;
+}
+@keyframes button {
+  0%{
+     color:white; 
+    } 
+    100%{
+       color:black; 
+      }
+}
+
+
+ 
